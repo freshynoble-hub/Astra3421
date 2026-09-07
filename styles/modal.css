@@ -1,41 +1,35 @@
-/* Modal */
 .modal-content {
-    background-color: #1e1e1e;
-    color: #fff;
-    border-radius: 15px;
-    border: none;
+    background: #1B1620;
+    border: 1px solid rgba(247, 65, 165, 0.25);
+    border-radius: 20px;
+    color: #F5EDF1;
 }
 
 .modal-header {
-    border-bottom: 1px solid #444;
-}
-
-.modal-footer {
-    border-top: 1px solid #444;
+    border-bottom: 1px solid rgba(247, 65, 165, 0.2);
 }
 
 .modal-title {
-    font-weight: bold;
-    color: #fff;
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
-.modal-body {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+.modal-body img {
+    border-radius: 12px;
+    border-top: 2px solid #F741A5;
+}
+
+.modal-body p {
+    color: #A99AA6;
+    margin-top: 1rem;
 }
 
 .btn-close {
-    filter: invert(1);
+    filter: invert(1) grayscale(100%) brightness(1.2);
+    opacity: 0.7;
 }
 
-#projectImage {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-#projectDescription {
-    line-height: 1.7;
-    font-size: 16px;
+.btn-close:hover {
+    opacity: 1;
 }
